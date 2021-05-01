@@ -4,7 +4,7 @@ fn main() {
 
     if n < 30 
     {
-        println! ("The number is less than 30!");
+        println! ("The number is less than 29!");
     }
     else if n > 50
     {
