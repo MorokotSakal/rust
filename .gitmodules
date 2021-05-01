@@ -1,0 +1,3 @@
+[submodule "hello-cargo"]
+	path = hello-cargo
+	url = ./hello-cargo
