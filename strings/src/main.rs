@@ -1,7 +1,7 @@
 fn main() {
     
     
-    let my_string = String::from("How's it going? My name is Dom.");
+    let mut my_string = String::from("How's it going? My name is Dom.");
 
     // length
 
@@ -14,4 +14,10 @@ fn main() {
     {
         println!("{}", token);
     }
+
+    println!("Does the string contain 'Dom'?{}", my_string.contains("Dom"));
+
+    my_string.push_str(" Welcome to your tutorial on Strings!");
+
+    println!("{}", my_string);
 }
